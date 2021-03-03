@@ -10,11 +10,12 @@ body {
   font-family: "Henny Penny", cursive;
   width: 100vw;
   height: 100vh;
-  background-color: white;
 
+  text-align: center;
   display: inline-block;
+  background-color: rgba(241, 224, 241, 0.301);
 }
-/* 'sign in with' part */
+/* THE 'sign in with' part CHAPTER */
 /* 'i modified the fieldset frame a bit */
 ::placeholder {
   font-family: "Henny Penny", cursive;
@@ -34,14 +35,13 @@ form {
   margin: 3rem auto;
   width: 20rem;
   height: 20rem;
-  border: 2px red dashed;
 }
 /* i beautified the e mail and pass fields */
 input {
   margin: 4vh auto;
   display: block;
   width: 90%;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(241, 224, 241, 0.301);
   border-left: none;
   border-top: none;
   border-right: none;
@@ -66,7 +66,7 @@ input {
   width: auto;
   padding: 1rem;
 }
-
+/* THE OR CHAPTER */
 .middle {
   border: 1px rgba(0, 0, 0, 0.24) solid;
   height: 17rem;
@@ -83,13 +83,14 @@ input {
   background-color: rgb(255, 255, 255);
   border-radius: 100%;
   border: 2px rgba(0, 0, 0, 0.24) solid;
+  box-shadow: 1px 1px 8px 3px rgb(61, 3, 61);
 }
-/* signin FB part */
+/* THE signin FB PART  CHAPTER */
 .alternativelog {
   margin: 3rem auto;
   width: 21rem;
   height: 19rem;
-  border: 2px red dashed;
+
   display: grid;
   align-items: center;
   justify-content: left;
@@ -102,7 +103,7 @@ input {
 }
 i {
   font-size: 3rem;
-  color: rgba(255, 255, 255, 0.876);
+  color: rgba(255, 255, 255, 0.945);
   box-shadow: 3px 3px 5px 3px rgb(0, 0, 0);
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0);
@@ -110,13 +111,13 @@ i {
 .messengerbox,
 .amazonbox,
 .whatsappbox {
-  border: 2px red dashed;
   width: 21rem;
   height: 5rem;
   background-color: rgb(137, 43, 226);
   display: flex;
   align-items: center;
   justify-content: left;
+  box-shadow: 1px 1px 1px 1px rgb(90, 73, 73);
 }
 .amazonbox {
   background-color: rgb(143, 123, 10);
@@ -126,10 +127,14 @@ i {
 }
 p {
   padding: 2rem;
-  color: aliceblue;
+  color: rgb(255, 255, 255);
   font-style: bold;
 }
 p::first-letter {
   font-size: 200%;
   color: #ffffff;
+}
+a {
+  text-decoration: none;
+  color: rgb(59, 1, 59);
 }

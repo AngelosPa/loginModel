@@ -17,6 +17,7 @@ body {
 }
 /* THE 'sign in with' part CHAPTER */
 /* 'i modified the fieldset frame a bit */
+
 ::placeholder {
   font-family: "Henny Penny", cursive;
 }
@@ -47,13 +48,13 @@ input {
   border-right: none;
 }
 /* i centralized the rememb/login/checkbox pas */
-.gamiesai {
+.gm {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 /* i beautified the login button */
-.skta {
+.skt {
   font-family: "Henny Penny", cursive;
   letter-spacing: 0.3rem;
   background-color: rgb(80, 15, 199);

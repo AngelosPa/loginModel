@@ -10,13 +10,13 @@ body {
   font-family: "Henny Penny", cursive;
   width: 100vw;
   height: 100vh;
-  background-color:white
+  background-color: white;
   border: 2px red dashed;
 }
 form {
   margin: 3rem auto;
-  width: 15rem;
-  height: 15rem;
+  width: 20rem;
+  height: 20rem;
   border: 2px red dashed;
 }
 input {
@@ -24,6 +24,27 @@ input {
   display: block;
   width: 60%;
   background-color: rgb(255, 255, 255);
-  box-shadow: 1px 0px 0px 3px rgb(36, 51, 7);
-  border: none;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+}
+.switch {
+  border: 2px red dashed;
+}
+.gamiesai {
+  border: 2px rgb(65, 55, 55) dashed;
+  display: flex;
+  float: center;
+  width: 18rem;
+}
+.skta {
+  font-family: "Henny Penny", cursive;
+  letter-spacing: 0.3rem;
+  background-color: rgb(80, 15, 199);
+  color: rgb(255, 255, 255);
+  padding: 0.5rem;
+  width: 5rem;
+}
+::placeholder {
+  font-family: "Henny Penny", cursive;
 }

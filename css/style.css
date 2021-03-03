@@ -10,4 +10,20 @@ body {
   font-family: "Henny Penny", cursive;
   width: 100vw;
   height: 100vh;
+  background-color:white
+  border: 2px red dashed;
+}
+form {
+  margin: 3rem auto;
+  width: 15rem;
+  height: 15rem;
+  border: 2px red dashed;
+}
+input {
+  margin: 2vh auto;
+  display: block;
+  width: 60%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 0px 0px 3px rgb(36, 51, 7);
+  border: none;
 }

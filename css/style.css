@@ -30,42 +30,93 @@ a {
   color: rgb(0, 0, 0);
 }
 
-/* THE 'sign in with' part CHAPTER */
-/* 'i modified the fieldset frame a bit */
-.or-menu {
-  border: 2px red dashed;
-}
-
 main {
   display: grid;
-  border: 2px red dashed;
+  border: 2px rgba(0, 0, 0, 0.233) solid;
   height: auto;
   width: 90vw;
-  grid-template-rows: 1fr repeat(1, 0.1fr);
-
-  grid-template-rows: 2.5fr;
-  gap: calc(1rem + 1%);
+  grid-template-rows: 1fr;
 
   grid-template-areas:
     "box-contact or-menu sign-in"
     "box-contact or-menu sign-in"
     "box-contact or-menu sign-in"
     "box-contact or-menu sign-in"
-    "footerstuff footerstuff  footerstuff  ";
+    "footerstuff footerstuff footerstuff ";
 }
+/* 'the sign in chapter */
 .sign-in {
   border: 2px red dashed;
   grid-area: sign-in;
 }
+/* 'the OR */
 .or-menu {
-  border: 2px red dashed;
   grid-area: or-menu;
+  width: 2px;
+  background-color: rgba(0, 0, 0, 0.233);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem auto;
 }
+.or-menu p {
+  border: 2px rgba(0, 0, 0, 0.233) solid;
+  width: 3.2rem;
+  padding: 0.9rem;
+  border-radius: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.342);
+}
+/* 'fb whatsapp amazon box */
 .box-contact {
-  border: 2px red dashed;
   grid-area: box-contact;
+  display: grid;
+
+  gap: 2rem;
+}
+.box-contact a:nth-child(1) {
+  background-color: rgb(0, 153, 255);
+  color: aliceblue;
+}
+.box-contact a:nth-child(2) {
+  background-color: rgb(160, 122, 20);
+  color: rgb(0, 0, 0);
+}
+.box-contact a:nth-child(3) {
+  background-color: rgb(32, 117, 17);
+  color: aliceblue;
+}
+.box-contact i {
+  padding: 0.4rem;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.555);
+}
+.box-contact i {
+  display: left;
+  align-items: left;
+  justify-content: left;
+}
+.box-contact a div {
+  padding: 0.9rem;
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.box-contact p {
+  color: aliceblue;
+  font-weight: bold;
 }
 .footerstuff {
   grid-area: footerstuff;
-  border: 2px red dashed;
+  border: 2px rgba(0, 0, 0, 0.233) solid;
+  padding: 1rem;
+}
+footer a {
+  color: rgb(30, 111, 182);
+  font-weight: bold;
 }

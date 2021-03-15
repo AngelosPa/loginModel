@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-weight: bold;
 }
 /* basic design and structure */
 
@@ -47,10 +48,16 @@ main {
     "footerstuff footerstuff footerstuff ";
 }
 /* 'the sign in chapter */
-.sign-in {
-  border: 2px red dashed;
-  grid-area: sign-in;
+legend {
+  font-size: 1.6rem;
 }
+.sign-in {
+  grid-area: sign-in;
+  display: flex;
+}
+.userna {
+}
+
 .userna input {
   color: blue;
   width: 14rem;
@@ -58,6 +65,21 @@ main {
   border: none;
   margin: 0.3rem;
   border-bottom: 2px rgba(0, 0, 0, 0.233) solid;
+}
+.gm {
+  width: 17rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.loginbutton {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.2rem;
+  background-color: rgb(80, 15, 199);
+  color: rgb(255, 255, 255);
+  padding: 0.5rem;
+  border: 2px white solid;
+  width: 5rem;
 }
 /* 'the OR */
 .or-menu {
@@ -122,8 +144,8 @@ main {
 }
 .box-contact p {
   color: aliceblue;
-  font-weight: bold;
 }
+/* 'footer forgott,register */
 .footerstuff {
   grid-area: footerstuff;
   border: 2px rgba(0, 0, 0, 0.233) solid;
@@ -131,5 +153,4 @@ main {
 }
 footer a {
   color: rgb(30, 111, 182);
-  font-weight: bold;
 }
